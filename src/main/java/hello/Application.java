@@ -12,7 +12,6 @@ import org.springframework.cache.annotation.EnableCaching;
 import org.springframework.stereotype.Component;
 
 @SpringBootApplication
-@EnableCaching
 public class Application {
 
   private static final Logger log = LoggerFactory.getLogger(Application.class);
